@@ -1,0 +1,12 @@
+{
+  "name": "sampson-portfolio",
+  "version": "1.0.0",
+  "description": "One-page AI Engineer & Software Engineer portfolio (Node + Express + GSAP)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

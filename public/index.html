@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sampson Adjei — AI Engineer & Software Engineer</title>
+    <meta
+      name="description"
+      content="AI Engineer & Software Engineer building ML systems, APIs, and production-ready software."
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Premium animated background -->
+    <div class="bgGrid" aria-hidden="true"></div>
+    <div class="bgNoise" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container nav">
+        <a class="logo" href="#top" aria-label="Go to top">
+          <span class="logoMark">SA</span>
+          <span class="logoText">Sampson</span>
+        </a>
+
+        <div class="navRight">
+          <!-- becomes visible after scroll (GSAP) -->
+         
+
+          <nav class="links" aria-label="Primary navigation">
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="btn btn-sm">Contact</a>
+          </nav>
+
+          <button class="menuBtn" id="menuBtn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobileMenu" id="mobileMenu">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Pinned hero -->
+      <section class="scrollHero" id="scrollHero">
+        <div class="container scrollHero-inner">
+          <div class="portraitCol">
+            <div class="portraitWrap" id="portraitWrap">
+              <img class="portrait" id="portrait" src="./images/me.jpg" alt="Sampson Adjei" />
+              <div class="portraitOverlay" aria-hidden="true"></div>
+
+              
+            </div>
+          </div>
+
+          <div class="heroCopy">
+            <p class="chip">AI Engineer • Software Engineer • Remote-friendly</p>
+
+            <h1 class="heroTitle">
+              I build <span class="accent">AI systems</span> and
+              <span class="accent">production software</span> that ship.
+            </h1>
+
+            <p class="heroSub">
+              I design ML workflows, build secure APIs, and create modern interfaces.
+              Clean code, measurable results, and strong UX.
+            </p>
+
+            <div class="ctaRow">
+              <a class="btn" href="#projects">See Projects</a>
+              
+            </div>
+
+         
+
+           
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Socials -->
+      <section class="section" id="socials">
+        <div class="container">
+          <div class="socialDockWrap reveal">
+            <div class="socialDockHead">
+              <h2 class="socialTitle">Socials</h2>
+              <p class="socialSub">Let’s connect. Quick links to where I’m active.</p>
+            </div>
+      
+            <div class="socialDockViewport" id="socialDockViewport">
+              <div class="socialDockTrack" id="socialDockTrack">
+      
+                <a class="dockItem" href="https://snapchat.com/add/YOUR_USERNAME" target="_blank">
+                  <img src="./icons/snapchat.png" alt="Snapchat" />
+                </a>
+      
+                <a class="dockItem" href="https://wa.me/233XXXXXXXXX" target="_blank">
+                  <img src="./icons/whatsapp.png" alt="WhatsApp" />
+                </a>
+      
+                <a class="dockItem" href="https://www.linkedin.com/in/YOUR_HANDLE" target="_blank">
+                  <img src="./icons/linkedin.png" alt="LinkedIn" />
+                </a>
+      
+                <a class="dockItem" href="https://instagram.com/YOUR_USERNAME" target="_blank">
+                  <img src="./icons/instagram.png" alt="Instagram" />
+                </a>
+      
+              </div>
+            </div>
+      
+           
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects (3D coverflow like your screenshot) -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="reveal">Featured Projects</h2>
+            <p class="reveal">Swipe / drag left-right to browse.</p>
+          </div>
+
+          <div class="coverflow reveal">
+            <button class="cfBtn cfPrev" id="cfPrev" aria-label="Previous project">‹</button>
+
+            <div class="cfViewport" id="cfViewport" tabindex="0" aria-label="Project coverflow">
+              <div class="cfTrack" id="cfTrack">
+                <!-- Card 1 -->
+                <article class="cfCard">
+                  <div class="cfThumb">
+                    <img src="./images/projects/Withgiga.png" alt="SentinelNet thumbnail" />
+                  </div>
+                  <div class="cfBody">
+                    <div class="cardTop">
+                      <h3>WithGiga AI</h3>
+                      <span class="pill">AI / AI Agent</span>
+                    </div>
+                    <p class="cardText">
+                      AI Agent that can help you with your daily tasks and questions.
+                    </p>
+                    <div class="stack">
+                      <span>Python</span><span>ML</span><span>AI Agent</span>
+                    </div>
+                    <div class="cardActions">
+                      <a class="link" href="#" target="_blank" rel="noreferrer">Repo</a>
+                      <a class="link" href="#" target="_blank" rel="noreferrer">Writeup</a>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="cfCard">
+                  <div class="cfThumb">
+                    <img src="./images/projects/HITL.png" alt="HITL Agent thumbnail" />
+                  </div>
+                  <div class="cfBody">
+                    <div class="cardTop">
+                      <h3>Human In The Loop</h3>
+                      <span class="pill">AI / LLM</span>
+                    </div>
+                    <p class="cardText">
+                      Human In The Loop agent that can help you with your daily tasks and questions.
+                    </p>
+                    <div class="stack">
+                      <span>Python</span><span>ML</span><span>AI Agent</span>
+                    </div>
+                    <div class="cardActions">
+                      <a class="link" href="#" target="_blank" rel="noreferrer">Repo</a>
+                      <a class="link" href="#" target="_blank" rel="noreferrer">Writeup</a>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="cfCard">
+                  <div class="cfThumb">
+                    <img src="./images/projects/picua.png" alt="PiCup thumbnail" />
+                  </div>
+                  <div class="cfBody">
+                    <div class="cardTop">
+                      <h3>PiCUA</h3>
+                      <span class="pill">Software</span>
+                    </div>
+                    <p class="cardText">
+                        The World's First Physical Computer-Use AI Agent.
+                    </p>
+                    <div class="stack">
+                      <span>Python</span><span>ML</span><span>AI Agent</span>
+                    </div>
+                    <div class="cardActions">
+                      <a class="link" href="#" target="_blank" rel="noreferrer">Repo</a>
+                      <a class="link" href="#" target="_blank" rel="noreferrer">Writeup</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <button class="cfBtn cfNext" id="cfNext" aria-label="Next project">›</button>
+          </div>
+
+          <div class="cfMeta">
+            <span id="cfIndex">1</span><span class="cfSlash">/</span><span id="cfTotal">3</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="reveal">Skills</h2>
+            <p class="reveal">End-to-end: data → model → API → product.</p>
+          </div>
+
+          <div class="grid2">
+            <div class="card reveal">
+              <h3>AI / ML</h3>
+              <ul class="list">
+                <li>Preprocessing, feature engineering, evaluation metrics</li>
+                <li>Scikit-learn pipelines, model selection, validation</li>
+                <li>Deep learning basics (PyTorch as needed)</li>
+                <li>Deployment thinking: batching, latency, monitoring</li>
+              </ul>
+            </div>
+
+            <div class="card reveal">
+              <h3>Software Engineering</h3>
+              <ul class="list">
+                <li>Node.js (Express), REST APIs, JWT auth, RBAC</li>
+                <li>PostgreSQL / Supabase, data modeling</li>
+                <li>Modern UI + performance + clean UX</li>
+                <li>Docker, env vars, deployments</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="reveal">About</h2>
+            <p class="reveal">Short, clear, confident.</p>
+          </div>
+
+          <div class="card reveal">
+            <p class="aboutText">
+              I’m Sampson Adjei — an AI Engineer and Software Engineer.
+              I build ML systems that are measurable and useful, and software that is secure,
+              clean, and production-ready. I like solving hard problems with simple, reliable designs.
+            </p>
+
+            <div class="aboutRow">
+              <a class="btn btn-ghost" href="#contact">Work with me</a>
+              <a class="btn" href="#" id="downloadCV">Download CV</a>
+            </div>
+
+            <p class="tiny">
+              Put <code>cv.pdf</code> inside <code>/public</code> and I’ll link it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="reveal">Contact</h2>
+            <p class="reveal">Let’s build something serious.</p>
+          </div>
+
+          <div class="grid2">
+            <div class="card reveal">
+              <h3>Details</h3>
+              <div class="contactLine">
+                <span>Email</span>
+                <a href="mailto:you@example.com">you@example.com</a>
+              </div>
+              <div class="contactLine">
+                <span>Location</span>
+                <span>Accra, Ghana</span>
+              </div>
+
+              <div class="note">
+                Want this form to actually send emails? I can add a Node endpoint + email integration.
+              </div>
+            </div>
+
+            <form class="card form reveal" id="contactForm">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@email.com" required />
+              </label>
+
+              <label>
+                Message
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me what you want to build..."
+                  required
+                ></textarea>
+              </label>
+
+              <button class="btn" type="submit">Send Message</button>
+              <p class="tiny" id="formStatus"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footerRow">
+          <p>© <span id="year"></span> Sampson Adjei. All rights reserved.</p>
+          <a class="link" href="#top">Back to top ↑</a>
+        </div>
+      </footer>
+    </main>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
